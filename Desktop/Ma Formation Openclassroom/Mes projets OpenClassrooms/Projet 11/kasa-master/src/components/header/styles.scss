@@ -2,8 +2,45 @@ header {
     color: black;
     display: flex;
     justify-content: space-between;
+    margin: 30px;
+}
+.headerlink{
+font-family: Montserrat;
+ 
+ margin-top: 10px;
 }
 .headerlink a{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.22px;
+    text-align: right;
     color: black;
     margin-right: 30px;
+  
+  
 }
+.headerlink a:hover{
+    text-decoration-line: underline;
+}
+.image{
+    
+}
+
+@media (max-width: 768px){
+    .image{
+        width: 145px;
+        height: 46.88px;
+
+    }
+    .headerlink a{
+        margin-right: 0px;
+        font-size: 12px;
+        margin-left: 20px;
+
+    }
+    .header {
+        margin: 10px;
+       
+    }
+  }
